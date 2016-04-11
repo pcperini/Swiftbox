@@ -20,6 +20,7 @@
 		73A7103B1CBC2607008A87FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73A7103E1CBC2607008A87FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73A710401CBC2607008A87FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A710641CBC5248008A87FC /* Swiftbox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Swiftbox.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		73A710361CBC2607008A87FC /* Swiftbox */ = {
 			isa = PBXGroup;
 			children = (
+				73A710641CBC5248008A87FC /* Swiftbox.entitlements */,
 				73A710371CBC2607008A87FC /* AppDelegate.swift */,
 				73A710391CBC2607008A87FC /* ViewController.swift */,
 				73A7103B1CBC2607008A87FC /* Assets.xcassets */,
@@ -94,6 +96,11 @@
 					73A710331CBC2607008A87FC = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = D9G4X7TP5Q;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -237,6 +244,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swiftbox/Swiftbox.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Swiftbox/Info.plist;
@@ -251,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swiftbox/Swiftbox.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Swiftbox/Info.plist;
