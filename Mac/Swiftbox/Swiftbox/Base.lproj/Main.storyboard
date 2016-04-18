@@ -362,7 +362,12 @@
                         <subviews>
                             <webView translatesAutoresizingMaskIntoConstraints="NO" id="Uhx-RI-ujB">
                                 <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
-                                <webPreferences key="preferences" defaultFontSize="16" defaultFixedFontSize="13" minimumFontSize="0"/>
+                                <webPreferences key="preferences" defaultFontSize="16" defaultFixedFontSize="13" minimumFontSize="0">
+                                    <nil key="identifier"/>
+                                </webPreferences>
+                                <connections>
+                                    <outlet property="frameLoadDelegate" destination="XfG-lQ-9wD" id="KzY-lw-vD1"/>
+                                </connections>
                             </webView>
                         </subviews>
                         <constraints>

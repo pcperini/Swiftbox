@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		735BC9371CC46569004A0BD0 /* Injection.css in Resources */ = {isa = PBXBuildFile; fileRef = 735BC9361CC46569004A0BD0 /* Injection.css */; };
 		73A710381CBC2607008A87FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A710371CBC2607008A87FC /* AppDelegate.swift */; };
 		73A7103A1CBC2607008A87FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A710391CBC2607008A87FC /* ViewController.swift */; };
 		73A7103C1CBC2607008A87FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A7103B1CBC2607008A87FC /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		735BC9361CC46569004A0BD0 /* Injection.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = Injection.css; sourceTree = "<group>"; };
 		73A710341CBC2607008A87FC /* Swiftbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A710371CBC2607008A87FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73A710391CBC2607008A87FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				73A7103B1CBC2607008A87FC /* Assets.xcassets */,
 				73A7103D1CBC2607008A87FC /* Main.storyboard */,
 				73A710401CBC2607008A87FC /* Info.plist */,
+				735BC9361CC46569004A0BD0 /* Injection.css */,
 			);
 			path = Swiftbox;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			files = (
 				73A7103C1CBC2607008A87FC /* Assets.xcassets in Resources */,
 				73A7103F1CBC2607008A87FC /* Main.storyboard in Resources */,
+				735BC9371CC46569004A0BD0 /* Injection.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				73A710451CBC2607008A87FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
